@@ -92,8 +92,10 @@ The Tableau dashboard provides multiple views that help decision-makers at Mitro
 ## Technologies Used
 - **MySQL**: For data exploration and validation.
 - **Tableau**: For data visualization and dashboard creation.
-- **Figma & Flaticon**: For designing custom icons and improving dashboard aesthetics.
+- [**Figma**](https://www.flaticon.com/) & [**Flaticon**](https://www.figma.com/): For designing custom icons and improving dashboard aesthetics.
 - **Excel Direct Method**: To enable sheet swapping and button functionalities.
+- [**Canva**](https://www.canva.com/)- For presenting insights & recommendations.
+- [**Freepik**](https://www.freepik.com/) - For thumbnail images.
 
 ## Conclusion
 This project provided actionable insights for **Mitron Bank** to introduce a new line of credit cards tailored to specific customer needs. By analyzing customer demographics, spending behaviors, and income utilization, the project helped identify key customer segments, offering significant value to the bank’s strategy team.
