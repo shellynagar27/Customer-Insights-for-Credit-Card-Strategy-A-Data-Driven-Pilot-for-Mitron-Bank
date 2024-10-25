@@ -2,7 +2,7 @@
 - **Domain** - Banking
 - **Function** - Strategy
 ## Mitron Bank Credit Card Analysis Project
--  [Linkedin Post]()
+-  [Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:7255639954226106368/)
 -  find dataset here 👉 [Resume Project Challenge #8 : Provide Insights to the Product Strategy Team in the Banking Domains by Codebasics](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 ## Project Overview
 This project was conducted for **Mitron Bank**, a legacy financial institution headquartered in Hyderabad, which plans to introduce a new line of credit cards to expand its product offerings. **AtliQ Data Services** proposed a data-driven solution for this initiative. As part of a pilot project, Mitron Bank provided a sample dataset of 4000 customers across five cities, focusing on their online spending and demographic details. The insights generated from this data will guide the creation of tailored credit card products.
@@ -39,12 +39,13 @@ The project uses two primary data sources provided by Mitron Bank:
 ## Dashboard Description
 The Tableau dashboard provides multiple views that help decision-makers at Mitron Bank understand customer behavior and preferences. The dashboard includes the following pages:
 
-1. **Landing Page**: A view that directs users to specific analysis sections. <p align = "center"> <img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/1.png" alt="Image1" width=100%></p>
-2. **Demographics**: A breakdown of customers by gender, age, occupation, and city, helping to understand customer diversity.<p align = "center"> <img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/2.png" alt="Image1" width="48%" style="margin-right: 10px;"><img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/3.png" alt="Image2" width="48%" style="margin-left: 10px;"></p>
-3. **Spend Analysis - 1**: A detailed analysis of average customer spending across various factors such as age, category, and occupation.<p align = "center"> <img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/4.png" alt="Image1" width="48%" style="margin-right: 10px;"><img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/5.png" alt="Image2" width="48%" style="margin-left: 10px;"></p>
-4. **Spend Analysis - 2**: A more nuanced analysis considering two factors at once, such as category and gender, occupation and age group.<p align = "center"> <img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/6.png" alt="Image1" width="48%" style="margin-right: 10px;"><img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/7.png" alt="Image2" width="48%" style="margin-left: 10px;"></p>
-5. **Income Analysis**: Assesses average income utilization across different demographic segments, providing insights into how income influences spending behavior and credit card usage potential.<p align = "center"> <img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/8.png" alt="Image1" width="48%" style="margin-right: 10px;"><img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/9.png" alt="Image2" width="48%" style="margin-left: 10px;"></p>
-6. **Detailed View**: Offers a comprehensive overview of the customer portfolio, combining all dimensions and analysis for a holistic view.<p align = "center"> <img src ="https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/ss/10.png" alt="Image1" width="100%" ></p>
+1. **Landing Page**: A view that directs users to specific analysis sections.
+2. **Demographics**: A breakdown of customers by gender, age, occupation, and city, helping to understand customer diversity.
+3. **Spend Analysis - 1**: A detailed analysis of average customer spending across various factors such as age, category, and occupation
+4. **Spend Analysis - 2**: A more nuanced analysis considering two factors at once, such as category and gender, occupation and age group.
+5. **Income Analysis**: Assesses average income utilization across different demographic segments, providing insights into how income influences spending behavior and credit card usage potential.
+6. **Detailed View**: Offers a comprehensive overview of the customer portfolio, combining all dimensions and analysis for a holistic view.
+![Overview-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/5bd66226-9f26-4b97-8233-955bc286953d)
 
 ## Approach and Methodology
 1. **Data Importation**: Loaded data from CSV files into Tableau, consisting of 4000 customers and 860,000 records.
