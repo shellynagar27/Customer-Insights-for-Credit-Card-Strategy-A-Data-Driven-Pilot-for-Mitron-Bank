@@ -5,14 +5,14 @@
 -  [Linkedin Post]()
 -  find dataset here 👉 [Resume Project Challenge #8 : Provide Insights to the Product Strategy Team in the Banking Domains by Codebasics](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 ## Project Overview
-Mitron Bank is exploring ways to introduce a new line of credit cards. Peter Pandey, a data analyst at AtliQ Data Services, has been tasked with analyzing the customer data provided by the bank and delivering key insights to the strategy team. His analysis is crucial for securing the project by providing actionable, data-driven recommendations that demonstrate a deep understanding of the target customers' needs. Imagine yourself as Peter Pandey, meticulously examining patterns, trends, and customer demographics to unlock valuable insights. Through this analysis, you will uncover hidden opportunities that will help Mitron Bank craft tailored offerings for its diverse customer base, guiding them toward an effective credit card strategy.
+This project was conducted for **Mitron Bank**, a legacy financial institution headquartered in Hyderabad, which plans to introduce a new line of credit cards to expand its product offerings. **AtliQ Data Services** proposed a data-driven solution for this initiative. As part of a pilot project, Mitron Bank provided a sample dataset of 4000 customers across five cities, focusing on their online spending and demographic details. The insights generated from this data will guide the creation of tailored credit card products.
 
 ## Problem Statement and Background
-Mitron Bank is exploring ways to introduce a new line of credit cards. **Peter Pandey**, a data analyst at AtliQ Data Services, was tasked with analyzing the customer data provided by the bank and delivering key insights to the strategy team. His analysis is crucial for securing the project by providing actionable, data-driven recommendations that demonstrate a deep understanding of the target customers’ needs.
+Mitron Bank is exploring ways to introduce a new line of credit cards. Peter Pandey, a data analyst at AtliQ Data Services, was tasked with analyzing the customer data provided by the bank and delivering key insights to the strategy team. Imagine yourself as Peter Pandey, diving deep into customer demographics, spending patterns, and credit scores to uncover trends and preferences that could shape the product’s success. His analysis is crucial for securing the project by providing actionable, data-driven recommendations that demonstrate a deep understanding of the target customers’ needs.
 
 ## Key Objectives
 The key objectives of this project were:
-1. Analyze the spending patterns and demographic information of Mitron Bank's customers.
+1. Analyze the spending patterns and demographic information of Mitron Bank's customers sample data and generate insights to be presented to the strategy team of Mitron Bank.
 2. Provide actionable insights to help Mitron Bank tailor credit card offerings to specific customer segments.
 3. Identify key customer groups that are most likely to be high-value users of the new credit cards.
 4. Present the findings in a clear, visual, and impactful Tableau dashboard.
@@ -33,25 +33,28 @@ The project uses two primary data sources provided by Mitron Bank:
   - `customer_id`: Unique ID linked to the `dim_customers` table.
   - `month`: Month in which the spending was recorded.
   - `category`: Spending category (e.g., Entertainment, Electronics).
-  - `payment_type`: Type of payment used (e.g., Debit Card, Credit Card).
+  - `payment_type`: Type of payment method used (e.g., Debit Card, Credit Card).
   - `spends`: Total amount spent in the specified category and month.
 
 ## Dashboard Description
 The Tableau dashboard provides multiple views that help decision-makers at Mitron Bank understand customer behavior and preferences. The dashboard includes the following pages:
 
-1. **Landing Page**: A summary view that provides high-level insights and directs users to specific analysis sections.
+1. **Landing Page**: A view that directs users to specific analysis sections.
 2. **Demographics**: A breakdown of customers by gender, age, occupation, and city, helping to understand customer diversity.
 3. **Spend Analysis - 1**: A detailed analysis of average customer spending across various factors such as age, category, and occupation.
 4. **Spend Analysis - 2**: A more nuanced analysis considering two factors at once, such as category and gender, occupation and age group.
-5. **Income Analysis**: An analysis of how income influences spending behavior and credit card usage potential.
-6. **Detailed View**: A consolidated view summarizing key findings across all analyses for quick decision-making.
+5. **Income Analysis**: Assesses average income utilization across different demographic segments, providing insights into how income influences spending behavior and credit card usage potential.
+6. **Detailed View**: Offers a comprehensive overview of the customer portfolio, combining all dimensions and analysis for a holistic view.
 
 ## Approach and Methodology
-1. **Data Exploration & Validation**: Used MySQL to explore and validate the data.
-2. **Data Relationships**: Established relationships between `dim_customers` and `fact_spends` tables in Tableau.
-3. **Calculated Fields & Parameters**: Created calculated fields to track spending, average income, and customer segmentation. Used parameters to activate button functionality for easier dashboard navigation.
-4. **Customer Segmentation**: Identified high-value customer segments based on their spending habits, demographics, and financial behavior.
-5. **Recommendations**: Provided recommendations on features that should be included in the new credit cards based on customer needs.
+1. **Data Importation**: Loaded data from CSV files into Tableau, consisting of 4000 customers and 860,000 records.
+2. **Data Exploration and Validation**: Performed using MySQL to ensure consistency and integrity.
+3. **Table Relationships**: Established relationships between customer and spending tables, using Excel-direct method to implement sheet-swapping functionality.
+4. **Calculated Fields**: Created calculated fields for total spending, average income, and income utilization.
+5. **Parameter Creation**: Developed parameters to enable filtering and button functionality.
+6. **Spending Insights**: Derived key insights into customer spending behavior, considering demographics such as occupation, gender, city, and age.
+7. **Customer Segmentation**: Identified high-value customer segments for targeted credit card features.
+8. **Recommendations**: Proposed key features for the new credit card based on customer behavior insights.
 
 ## Insights Generated
 - **Spending Patterns**: Identified where customers are spending the most (e.g., Electronics, Apparel) and analyzed the effect of demographics (age, occupation, etc.) on spending behavior.
@@ -59,12 +62,15 @@ The Tableau dashboard provides multiple views that help decision-makers at Mitro
 - **High-Value Segments**: Segmented customers likely to be the most valuable for the new credit card offering, such as IT professionals and business owners in certain age groups.
 
 ## Key Learnings
-1. **Data Modeling & Cleaning**: Developed proficiency in data modeling and data cleaning using Tableau.
-2. **Interactive Dashboard Creation**: Learned how to create professional-level dashboards with features like sheet swapping, navigation buttons, and custom icons.
-3. **Advanced Tableau Techniques**: Implemented calculated fields, parameter controls, and action-based interactivity to enhance user experience.
-4. **Visual Design**: Designed visually appealing and functional dashboards using customized color palettes and icons.
-5. **Data-Driven Insights**: Gained deep insights into how to tailor products (credit cards) based on customer needs, demographics, and spending patterns.
-6. **Tooltips**: Customized tooltips to display contextual insights, enhancing user interactivity and understanding of the data
+1. **Data Modeling and Cleaning**: Gained experience in cleaning and preparing data using Tableau.
+2. **Creation of Calculated Fields & Parameters**: Developed advanced calculations and parameter-driven analysis to customize dashboard functionality.
+3. **Excel-Direct Method**: Applied this method to create a seamless sheet-switching experience with buttons.
+4. **Dashboard Design**: Designed professional dashboards with containers, navigation buttons, and show/hide features for a polished look.
+5. **Custom Icons and Color Palettes**: Learned how to incorporate personalized icons and color schemes using tools like Figma and Flaticon.
+6. **Button Activation**: Leveraged Tableau’s action functionality to implement interactive buttons.
+7. **Chart Customization**: Created advanced charts (area plots, pie charts, tree maps, maps) with conditional formatting.
+8. **Tooltips**: Customized tooltips to display contextual insights, enhancing user interactivity and understanding of the data.
+9. **Income Utilization Concept**: Understood the concept of average income utilization and its relation to credit card usage likelihood.
 
 ## Technologies Used
 - **MySQL**: For data exploration and validation.
@@ -79,6 +85,3 @@ This project provided actionable insights for **Mitron Bank** to introduce a new
 - Incorporating more data from other regions or customer segments to further refine the credit card offering.
 - Integrating real-time data analysis for continuous updates and improvements.
 
----
-
-This README is intended to guide users and stakeholders through the project’s objectives, methodology, and results, demonstrating how data-driven insights can inform business decisions.
