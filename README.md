@@ -56,7 +56,7 @@ The Tableau dashboard provides multiple views that help decision-makers at Mitro
 7. **Customer Segmentation**: Identified high-value customer segments for targeted credit card features.
 8. **Recommendations**: Proposed key features for the new credit card based on customer behavior insights.
 
-## Insights Generated
+## [Insights Generated](https://github.com/shellynagar27/Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank/blob/main/Insights.pdf)
 - **Spending Patterns**: Identified where customers are spending the most (e.g., Electronics, Apparel) and analyzed the effect of demographics (age, occupation, etc.) on spending behavior.
 - **Income Utilization**: Analyzed how customers’ average income utilization affects their likelihood of using credit cards.
 - **High-Value Segments**: Segmented customers likely to be the most valuable for the new credit card offering, such as IT professionals and business owners in certain age groups.
