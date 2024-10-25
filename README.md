@@ -1,6 +1,6 @@
 # Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank
-**Domain** - Banking
-**Function** - Strategy
+- **Domain** - Banking
+- **Function** - Strategy
 ## Mitron Bank Credit Card Analysis Project
 -  [Linkedin Post]()
 -  find dataset here 👉 [Resume Project Challenge #8 : Provide Insights to the Product Strategy Team in the Banking Domains by Codebasics](https://codebasics.io/challenge/codebasics-resume-project-challenge)
