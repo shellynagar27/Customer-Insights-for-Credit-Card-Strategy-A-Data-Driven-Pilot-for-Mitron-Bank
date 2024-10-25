@@ -61,6 +61,22 @@ The Tableau dashboard provides multiple views that help decision-makers at Mitro
 - **Income Utilization**: Analyzed how customers’ average income utilization affects their likelihood of using credit cards.
 - **High-Value Segments**: Segmented customers likely to be the most valuable for the new credit card offering, such as IT professionals and business owners in certain age groups.
 
+## Recommendations
+- _**Targeted Credit Card Benefits**_:
+  - Design credit card offerings that cater to middle-class customers, particularly male salaried IT professionals in the 25-44 age range.
+  - Introduce perks aligned with essential spending categories (e.g., bills, electronics, and groceries) and popular modes of payment like credit cards and UPI.
+- _**Customized Rewards Program**_:
+  - Consider segment-specific reward points for categories based on demographic insights: higher rewards for bills, electronics, and groceries for salaried IT employees.
+  - Implement a bonus rewards program in September to capitalize on peak spending trends.
+- _**Enhanced Marketing in Mumbai**_:
+  - Allocate more marketing resources to Mumbai, where spending and income utilization are highest, and tailor campaigns to the specific spending habits of salaried IT employees.
+- _**Differentiated Card Products**_:
+  - Offer card products with features tailored for young (21-24) customers focused on lifestyle categories (e.g., entertainment, apparel).
+  - Introduce products catering to older demographics (45+) with more modest spending but focused on essential categories like health & wellness.
+- _**Flexible Payment Options**_:
+  - Encourage the use of credit cards for high-value categories (apparel, electronics, and bills) by offering cashback or discounts.
+  - Highlight the ease and benefits of UPI for groceries and food-related spending, which may appeal to married customers.
+
 ## Key Learnings
 1. **Data Modeling and Cleaning**: Gained experience in cleaning and preparing data using Tableau.
 2. **Creation of Calculated Fields & Parameters**: Developed advanced calculations and parameter-driven analysis to customize dashboard functionality.
