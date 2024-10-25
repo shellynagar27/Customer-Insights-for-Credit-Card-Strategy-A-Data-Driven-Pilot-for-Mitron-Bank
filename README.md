@@ -1,8 +1,11 @@
 # Customer-Insights-for-Credit-Card-Strategy-A-Data-Driven-Pilot-for-Mitron-Bank
+**Domain** - Banking
+**Function** - Strategy
 ## Mitron Bank Credit Card Analysis Project
-
+-  [Linkedin Post]()
+-  find dataset here 👉 [Resume Project Challenge #8 : Provide Insights to the Product Strategy Team in the Banking Domains by Codebasics](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 ## Project Overview
-This project was conducted for **Mitron Bank**, a legacy financial institution headquartered in Hyderabad, which plans to introduce a new line of credit cards to expand its product offerings. **AtliQ Data Services** proposed a data-driven solution for this initiative. As part of a pilot project, Mitron Bank provided a sample dataset of 4000 customers across five cities, focusing on their online spending and demographic details. The insights generated from this data will guide the creation of tailored credit card products.
+Mitron Bank is exploring ways to introduce a new line of credit cards. Peter Pandey, a data analyst at AtliQ Data Services, has been tasked with analyzing the customer data provided by the bank and delivering key insights to the strategy team. His analysis is crucial for securing the project by providing actionable, data-driven recommendations that demonstrate a deep understanding of the target customers' needs. Imagine yourself as Peter Pandey, meticulously examining patterns, trends, and customer demographics to unlock valuable insights. Through this analysis, you will uncover hidden opportunities that will help Mitron Bank craft tailored offerings for its diverse customer base, guiding them toward an effective credit card strategy.
 
 ## Problem Statement and Background
 Mitron Bank is exploring ways to introduce a new line of credit cards. **Peter Pandey**, a data analyst at AtliQ Data Services, was tasked with analyzing the customer data provided by the bank and delivering key insights to the strategy team. His analysis is crucial for securing the project by providing actionable, data-driven recommendations that demonstrate a deep understanding of the target customers’ needs.
